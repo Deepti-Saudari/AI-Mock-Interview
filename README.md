@@ -39,9 +39,8 @@ The platform generates interview questions based on the selected role and experi
 Instead of static question banks, every interview session is dynamic, allowing users to practice repeatedly while tracking their improvement over time.
 
 
-# 🎥 Application Demo
+# 🎬 Application Demo
 
-Watch the complete walkthrough of the application below.
 
 https://github.com/user-attachments/assets/54c4f403-e5de-4694-831f-18b73369f1ca
 
