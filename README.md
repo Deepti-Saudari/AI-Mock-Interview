@@ -46,53 +46,54 @@ Instead of static question banks, every interview session is dynamic, allowing u
 
 # 🛠️ Technology Stack
 
-<div align="center">
-
-### Frontend
+## 🎨 Frontend
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind"/>
-
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind" />
 </p>
 
-### Backend
+---
+
+## ⚙️ Backend
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=python,fastapi"/>
-
+<img src="https://skillicons.dev/icons?i=python,fastapi" />
 </p>
 
-### Database
+---
+
+## 🗄️ Database
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=mysql"/>
-
+<img src="https://skillicons.dev/icons?i=mysql" />
 </p>
 
-### Authentication
+---
 
-Clerk Authentication
+## 🔐 Authentication
 
-### Artificial Intelligence
+- Clerk Authentication
+- Secure User Sessions
+
+---
+
+## 🤖 Artificial Intelligence
 
 - Google Gemini API
 - Prompt Engineering
-- Natural Language Processing
+- Natural Language Processing (NLP)
 - Speech Recognition
 - AI Response Evaluation
 
-### Development Tools
+---
+
+## 🛠️ Development Tools
 
 <p>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
-
+<img src="https://skillicons.dev/icons?i=git,github,vscode" />
 </p>
 
-</div>
+---
 
 ---
 
