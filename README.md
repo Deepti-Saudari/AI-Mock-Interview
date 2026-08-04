@@ -1,23 +1,32 @@
+<p align="center">
+
+<img src="images/banner.png" width="100%" alt="AI Mock Interview Banner">
+
+</p>
+
 <div align="center">
 
-# 🎤 AI Mock Interview
-
 ### Practice Interviews. Receive AI Feedback. Improve with Every Attempt.
-
-An AI-powered mock interview platform that simulates real interview experiences using Generative AI, speech recognition, and personalized performance analysis.
 
 <p>
 
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs"/>
+
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
+
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi"/>
+
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python"/>
+
 <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge"/>
+
 <img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge"/>
 
 </p>
 
 </div>
+
+---
 
 ---
 
