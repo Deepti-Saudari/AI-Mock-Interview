@@ -40,6 +40,14 @@ Instead of static question banks, every interview session is dynamic, allowing u
 
 ---
 
+# 🎥 Product Demo
+
+Watch the complete walkthrough of the application below.
+
+https://github.com/user-attachments/assets/54c4f403-e5de-4694-831f-18b73369f1ca
+
+---
+
 # ✨ Core Features
 
 | 🚀 Feature | Description |
