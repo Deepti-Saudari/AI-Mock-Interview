@@ -78,11 +78,11 @@ Clerk Authentication
 
 ### Artificial Intelligence
 
-- Google Gemini API
-- Prompt Engineering
-- Natural Language Processing
-- Speech Recognition
-- AI Response Evaluation
+ Google Gemini API
+ Prompt Engineering
+ Natural Language Processing
+ Speech Recognition
+ AI Response Evaluation
 
 ### Development Tools
 
