@@ -45,7 +45,7 @@ Instead of static question banks, every interview session is dynamic, allowing u
 ---
 # 🛠️ Technology Stack
 
-<div align="center">
+<div align="left">
 
 ### Frontend
 
