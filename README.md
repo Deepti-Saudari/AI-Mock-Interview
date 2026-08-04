@@ -40,7 +40,7 @@ Instead of static question banks, every interview session is dynamic, allowing u
 
 ---
 
-# 🎥 Product Demo
+# 🎥 Application Demo
 
 Watch the complete walkthrough of the application below.
 
