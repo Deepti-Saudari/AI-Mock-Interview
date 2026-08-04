@@ -2,21 +2,18 @@
 
 # 🎤 AI Mock Interview
 
-### AI-Powered Interview Preparation Platform
+### Practice Interviews. Receive AI Feedback. Improve with Every Attempt.
 
-**Practice smarter with AI-generated interviews, real-time speech analysis, and personalized feedback.**
+An AI-powered mock interview platform that simulates real interview experiences using Generative AI, speech recognition, and personalized performance analysis.
 
 <p>
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
-
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs"/>
-
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi"/>
-
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python"/>
-
-<img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge"/>
 
 </p>
 
@@ -26,28 +23,30 @@
 
 # 📖 Overview
 
-AI Mock Interview is an intelligent interview preparation platform that simulates real interview experiences using Generative AI.
+AI Mock Interview is an AI-powered interview preparation platform that helps users practice technical and behavioral interviews through realistic interview simulations.
 
-The platform generates role-specific interview questions, records spoken responses, evaluates answers using AI, and provides personalized feedback to help users improve communication, technical knowledge, and interview confidence.
+The platform generates interview questions based on the selected role and experience level, records spoken responses, evaluates answers using Google's Gemini AI, and provides detailed feedback to help users improve confidence, communication, and technical performance.
 
-Unlike traditional question banks, the platform creates dynamic interview sessions tailored to the selected job role and experience level.
+Instead of static question banks, every interview session is dynamic, allowing users to practice repeatedly while tracking their improvement over time.
 
 ---
 
-# ✨ Key Features
+# ✨ Core Features
 
 | 🚀 Feature | Description |
 |------------|-------------|
-| 🎯 AI Interview Generation | Generates role-specific interview questions using Gemini AI. |
-| 🎤 Speech-to-Text | Converts spoken answers into text for evaluation. |
-| 🤖 AI Feedback | Provides personalized feedback and improvement suggestions. |
-| 📈 Performance Dashboard | Tracks interview history and progress over time. |
-| 📝 Interview History | Stores completed interviews for later review. |
-| 🔒 Secure Authentication | User authentication and protected interview sessions. |
+| 🎯 AI Interview Generation | Creates role-specific interview questions using Gemini AI. |
+| 🎤 Speech Recognition | Captures spoken responses for evaluation. |
+| 🤖 AI Feedback | Generates detailed strengths, weaknesses, and improvement suggestions. |
+| 📊 Performance Dashboard | Displays interview history and performance analytics. |
+| 🔐 Secure Authentication | User login and profile management using Clerk. |
+| 📝 Interview History | Stores previous interviews for review and comparison. |
 
 ---
 
 # 🛠️ Technology Stack
+
+<div align="center">
 
 ### Frontend
 
@@ -57,8 +56,6 @@ Unlike traditional question banks, the platform creates dynamic interview sessio
 
 </p>
 
----
-
 ### Backend
 
 <p>
@@ -67,19 +64,7 @@ Unlike traditional question banks, the platform creates dynamic interview sessio
 
 </p>
 
----
-
-### Artificial Intelligence
-
-- Google Gemini API
-- Natural Language Processing (NLP)
-- Speech Recognition
-- Prompt Engineering
-- AI Response Evaluation
-
----
-
-### Database & Authentication
+### Database
 
 <p>
 
@@ -87,10 +72,17 @@ Unlike traditional question banks, the platform creates dynamic interview sessio
 
 </p>
 
-- Clerk Authentication
-- Drizzle ORM
+### Authentication
 
----
+Clerk Authentication
+
+### Artificial Intelligence
+
+- Google Gemini API
+- Prompt Engineering
+- Natural Language Processing
+- Speech Recognition
+- AI Response Evaluation
 
 ### Development Tools
 
@@ -100,49 +92,43 @@ Unlike traditional question banks, the platform creates dynamic interview sessio
 
 </p>
 
+</div>
+
 ---
 
 # 🏗️ System Architecture
 
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/Deepti-Saudari/agentic-ai-startup-cofounder/main/images/architecture.png" width="100%">
-
-</p>
-
-### Workflow
-
 ```text
-User
-
-   │
-
-Select Job Role
-
-   │
-
-Gemini AI Generates Questions
-
-   │
-
-Interview Starts
-
-   │
-
-Speech-to-Text
-
-   │
-
-Gemini AI Evaluation
-
-   │
-
-Feedback Generation
-
-   │
-
-Performance Dashboard
-
+                         User
+                           │
+                           ▼
+                Next.js + React Frontend
+                           │
+                    Clerk Authentication
+                           │
+                           ▼
+                  Interview Dashboard
+                           │
+          Select Role & Experience Level
+                           │
+                           ▼
+                Gemini AI Question Generator
+                           │
+                     Interview Session
+                           │
+                 Speech-to-Text Processing
+                           │
+                           ▼
+                  Gemini AI Evaluation
+                           │
+                           ▼
+                  Feedback & Suggestions
+                           │
+                           ▼
+                  Interview History
+                           │
+                           ▼
+                 Performance Dashboard
 ```
 
 ---
@@ -155,15 +141,30 @@ AI-Mock-Interview/
 ├── app/
 ├── components/
 ├── lib/
-├── hooks/
-├── public/
 ├── utils/
-├── styles/
+├── public/
+├── hooks/
+├── constants/
 ├── database/
+├── drizzle/
 ├── package.json
 ├── README.md
 └── ...
 ```
+
+---
+
+# 🎯 Workflow
+
+1. User signs in using Clerk Authentication.
+2. User selects a job role and experience level.
+3. Gemini AI generates personalized interview questions.
+4. User answers questions using voice.
+5. Speech Recognition converts responses to text.
+6. Gemini AI evaluates each response.
+7. AI generates personalized feedback.
+8. Results are stored for future review.
+9. Dashboard tracks progress across interview sessions.
 
 ---
 
@@ -173,8 +174,8 @@ AI-Mock-Interview/
 
 Before running the project, ensure you have:
 
-- Node.js (v18 or later)
-- Python (v3.10 or later)
+- Node.js 18+
+- Python 3.10+
 - npm
 - Git
 
@@ -190,7 +191,7 @@ cd AI-Mock-Interview
 
 ---
 
-## Frontend
+## Install Frontend
 
 ```bash
 npm install
@@ -200,7 +201,7 @@ npm run dev
 
 ---
 
-## Backend
+## Install Backend
 
 ```bash
 cd backend
@@ -217,42 +218,41 @@ uvicorn main:app --reload
 Create a `.env` file.
 
 ```env
-GEMINI_API_KEY=YOUR_API_KEY
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=YOUR_KEY
+CLERK_SECRET_KEY=YOUR_KEY
+GEMINI_API_KEY=YOUR_KEY
 DATABASE_URL=YOUR_DATABASE_URL
-CLERK_SECRET_KEY=YOUR_SECRET_KEY
 ```
 
 ---
 
-# 📈 Project Highlights
+# 🌟 Why This Project?
 
-<div align="center">
+This project was built to make interview preparation more interactive and personalized by combining AI-generated interview questions with speech recognition and automated evaluation.
 
-| Feature | Description |
-|:--------:|------------|
-| 🤖 AI Interview Generation | Dynamic interview questions using Gemini AI |
-| 🎤 Speech Recognition | Converts spoken answers into text |
-| 🧠 AI Feedback | Personalized interview evaluation |
-| 📊 Progress Dashboard | Track interview history and performance |
-| 🔒 Authentication | Secure login using Clerk |
-| ⚡ Backend | FastAPI REST APIs |
+It demonstrates practical integration of:
 
-</div>
+- Google Gemini API
+- FastAPI REST APIs
+- Authentication using Clerk
+- AI-powered feedback generation
+- Full-stack application development
+- Real-world AI workflow implementation
 
 ---
 
-# 🗺 Roadmap
+# 📈 Future Enhancements
 
 - [x] AI Interview Generation
-- [x] Speech-to-Text
 - [x] AI Feedback
-- [x] User Authentication
-- [x] Progress Dashboard
+- [x] Speech Recognition
+- [x] Authentication
+- [x] Interview History
 - [ ] Resume-based Interviews
-- [ ] Company-specific Interview Sets
+- [ ] Company-specific Interview Templates
+- [ ] Coding Interview Support
 - [ ] Video Interview Mode
-- [ ] Multiplayer Mock Interviews
-- [ ] AI Career Coach
+- [ ] Recruiter Dashboard
 - [ ] Cloud Deployment
 
 ---
@@ -262,7 +262,8 @@ CLERK_SECRET_KEY=YOUR_SECRET_KEY
 Contributions are welcome.
 
 1. Fork the repository
-2. Create a new branch
+
+2. Create a feature branch
 
 ```bash
 git checkout -b feature-name
@@ -274,7 +275,7 @@ git checkout -b feature-name
 git commit -m "Add new feature"
 ```
 
-4. Push the branch
+4. Push
 
 ```bash
 git push origin feature-name
@@ -294,16 +295,18 @@ Licensed under the **MIT License**.
 
 **Deepti Saudari**
 
-- 📧 saudarideepti@gmail.com
-- 💼 https://www.linkedin.com/in/deepti-saudari/
-- 🐙 https://github.com/Deepti-Saudari
+📧 saudarideepti@gmail.com
+
+💼 https://www.linkedin.com/in/deepti-saudari/
+
+🐙 https://github.com/Deepti-Saudari
 
 ---
 
 <div align="center">
 
-## ⭐ If you found this project useful, please consider giving it a Star!
+## ⭐ If you found this project useful, consider giving it a Star!
 
-Thank you for visiting this repository.
+Built with ❤️ using AI and modern web technologies.
 
 </div>
