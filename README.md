@@ -38,16 +38,6 @@ The platform generates interview questions based on the selected role and experi
 
 Instead of static question banks, every interview session is dynamic, allowing users to practice repeatedly while tracking their improvement over time.
 
-## 🌟 Project Highlights
-
-- 🤖 AI-powered interview generation using Gemini AI
-- 🎤 Real-time speech-to-text interview responses
-- 📈 Personalized AI feedback and evaluation
-- 📚 Interview history and progress tracking
-- 🔒 Secure authentication with Clerk
-- 💻 Modern full-stack architecture using Next.js and FastAPI
-
----
 
 # 🎥 Application Demo
 
